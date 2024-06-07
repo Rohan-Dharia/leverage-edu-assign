@@ -8,7 +8,6 @@
   
   .logo img {
     height: 40px;
-    padding-left: 140px;
   }
   
   .nav-items {
@@ -26,7 +25,6 @@
   .right-icons {
     display: flex;
     align-items: center;
-    padding-right: 117px;
   }
   
   .right-icons img {

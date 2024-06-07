@@ -2,7 +2,6 @@ import "./left-main-body.css";
 
 export default function LeftBody(){
     return(
-        <div className="body">
             <div className="container">
                 <h1>FIRST IN THE FAMILY</h1>
                 <p className="description">They are the global citizens of tomorrow. Start your study abroad journey today.</p>
@@ -25,6 +24,5 @@ export default function LeftBody(){
 
                 </div>
             </div>
-        </div>
     );
 }

@@ -31,6 +31,32 @@ body {
     text-wrap: balance;
   }
 }
+
+.container {
+  margin-left: 156px;
+}
+
+.inner-container {
+  margin-left: 156px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.left {
+
+}
+
+.right {
+
+}
+
+.left-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .upper-deck{
   background-color: #002147;
   height: 3rem;
