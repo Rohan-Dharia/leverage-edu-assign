@@ -1,0 +1,44 @@
+.carouselContainer {
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  height: 500px; /* Increased height */
+}
+
+.carouselItem {
+  padding: 0; /* Remove padding */
+  height: 100%; /* Ensure items fill the container height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselItem img {
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  height: 75vh;
+  object-fit: cover;
+  /* border-radius: 10px; */
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.carouselItem img:hover {
+  transform: scale(1.5);
+  z-index: 1000;
+  position: relative;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .carouselContainer {
+    width: 100%;
+    height: 400px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .carouselItem img:hover {
+    transform: scale(1.2);
+  }
+}

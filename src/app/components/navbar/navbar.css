@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+    padding-left: 140px;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-items a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 117px;
+  }
+  
+  .right-icons img {
+    margin-left: 15px;
+    height: 24px;
+  }
+  

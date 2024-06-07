@@ -1,0 +1,89 @@
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    text-align: center;
+  }
+  
+  .container {
+    /* max-width: 400px; */
+    /* padding: 20px; */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .live-on {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  .company{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 20px 0;
+    /* gap: 10px; */
+  }
+  .company img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .live-on img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .btn-blue {
+    /* background: linear-gradient(to right, #0062E6, #33AEFF); */
+    color: white;
+    background: linear-gradient(90deg, #002147 0%, #0487F3 100%);
+
+  }
+  
+  .btn-white {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
+  .footer-text {
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
+  h1{
+    text-align: left;
+  }

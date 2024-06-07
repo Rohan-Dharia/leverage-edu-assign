@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+.upper-deck{
+  background-color: #002147;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+.button{
+  /* border-color: white; */
+  color: white;
+  border-radius: 10px;
+  border: 1.5px solid #FFFFFF;
+  width: 100px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .upper-deck {
+    height: 2.5rem; /* Adjust height for mobile */
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270%; /* Add padding for better spacing */
+  }
+
+  .button {
+    width: 80px; /* Adjust width for mobile */
+    height: 25px; /* Adjust height for mobile */
+    font-size: 0.8rem; /* Adjust font size for better readability */
+  }
+}
+
